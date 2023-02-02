@@ -1,7 +1,14 @@
-.image-container{
-    display: flex;
-    flex-direction: row;
-    img{
-        width: 40%;
+body{
+    .image-container{
+        display: flex;
+        flex-direction: row;
+        img{
+            width: 40%;
+        }
+    }
+    .sum-container{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
     }
 }

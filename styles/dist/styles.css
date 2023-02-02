@@ -1,7 +1,12 @@
-.image-container {
+body .image-container {
   display: flex;
   flex-direction: row;
 }
-.image-container img {
+body .image-container img {
   width: 40%;
+}
+body .sum-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
 }
