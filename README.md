@@ -3,4 +3,4 @@
 <br/>
 <p>Access to this site:</p>
 <br/>
-<a href="tien226anh.github.io/homework-LTW" target="_blank">tien226anh.github.io/homework-LTW</a>
+<a href="https://tien226anh.github.io/homework-LTW/" target="_blank">Click here</a>
