@@ -8,18 +8,18 @@ body{
     .sum-container{
         display: grid;
         justify-items: center;
-        .numContainer{
-            margin: 10px 0;
-            padding: 10px;
-            background: cyan;
-            border-radius: 10px;
-            .boxNum{
-                display: flex;
-                flex-direction: column;
-            }
-        }
-        .sumButton{
-            margin-bottom: 10px;
-        }
+        // .numContainer{
+        //     margin: 10px 0;
+        //     padding: 10px;
+        //     background: cyan;
+        //     border-radius: 10px;
+        //     .boxNum{
+        //         display: flex;
+        //         flex-direction: column;
+        //     }
+        // }
+        // .sumButton{
+        //     margin-bottom: 10px;
+        // }
     }
 }
