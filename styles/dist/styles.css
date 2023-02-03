@@ -1,12 +1,23 @@
 body .image-container {
   display: flex;
-  flex-direction: row;
 }
 body .image-container img {
-  width: 40%;
+  width: 50%;
 }
 body .sum-container {
+  display: grid;
+  justify-items: center;
+}
+body .sum-container .numContainer {
+  margin: 10px 0;
+  padding: 10px;
+  background: cyan;
+  border-radius: 10px;
+}
+body .sum-container .numContainer .boxNum {
   display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
+  flex-direction: column;
+}
+body .sum-container .sumButton {
+  margin-bottom: 10px;
 }

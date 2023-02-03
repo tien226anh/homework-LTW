@@ -19,13 +19,21 @@
     </div>
 
     <h1>Bài 2 (1st week)</h1>
-    <div class="sum-container">
-        <input type="text" name="" placeholder="Enter number" id="input1">
-        <p id="plus">+</p>
-        <input type="text" name="" placeholder="Enter number" id="input2">
-        <button onclick="doSum();">=</button>
-        <input type="text" name="" id="sum" disabled>
-    </div>
+    <form class="sum-container">
+        <div class="boxNum">
+            <label for="fnum">Enter first number</label>
+            <input type="text" name="" id="input1" placeholder="Enter first number">
+        </div>
+        <div class="boxNum">
+            <label for="snum">Enter second number</label>
+            <input type="text" name="" id="input2" placeholder="Enter second number">
+        </div>
+        <button onclick="doSum();" class="sumButton">=</button>
+        <div class="boxNum">
+            <label for="sum">The answer is</label>
+            <input type="text" name="" id="sum" placeholder="Answer" disabled>
+        </div>
+    </form>
 </body>
 
 </html>
