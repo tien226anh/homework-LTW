@@ -1,5 +1,7 @@
 <br/>
 <h1>Homework LTW year 3 semester 2 PTIT</h1>
 <br/>
-<p>Access to this site:</p>
-<a href="https://tien226anh.github.io/homework-LTW/" target="_blank">Click here</a>
+<p>
+    Access to this site: <a href="https://tien226anh.github.io/homework-LTW/" target="_blank">Click here</a>
+</p>
+
