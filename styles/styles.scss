@@ -8,6 +8,11 @@ body{
     .sum-container{
         display: grid;
         justify-items: center;
+        .input-group{
+            .num-container{
+                background-color: aqua;
+            }
+        }
         // .numContainer{
         //     margin: 10px 0;
         //     padding: 10px;

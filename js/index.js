@@ -9,7 +9,11 @@ function doSum(){
         document.getElementById("input2").value = "";
     } else {
         var sum = parseInt(num1) + parseInt(num2);
-        document.getElementById("sum").value = sum;
+        if (sum === NaN){
+            document.getElementById("sum").value = "Please enter digit";
+        } else {
+            document.getElementById("sum").value = sum;
+        }
         console.log("sum: "+sum);
     }
 }
