@@ -1,8 +1,10 @@
 body{
     .image-container{
         display: flex;
+        justify-content: center;
         img{
-            width: 50%;
+            width: 40%;
+            padding: 10px;
         }
     }
     .sum-container{
@@ -12,19 +14,6 @@ body{
             .num-container{
                 background-color: aqua;
             }
-        }
-    }
-    .github{
-        position: fixed;
-        bottom: 10px;
-        right: 10px;
-        display: flex;
-        justify-content: flex-end;
-        align-items: center;
-        img{
-            width: 50%;
-            background-color: skyblue;
-            border-radius: 50px;
         }
     }
 }

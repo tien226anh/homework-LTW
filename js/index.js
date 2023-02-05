@@ -4,16 +4,12 @@ function doSum(){
     
     //check number or not
     if(isNaN(num1) || isNaN(num2)) {
-        alert("Please enter digits");
+        alert("Please enter number");
         document.getElementById("input1").value = "";
         document.getElementById("input2").value = "";
     } else {
         var sum = parseInt(num1) + parseInt(num2);
-        if (sum === NaN){
-            document.getElementById("sum").value = "Please enter digit";
-        } else {
-            document.getElementById("sum").value = sum;
-        }
+        document.getElementById("sum").value = sum;
         console.log("sum: "+sum);
     }
 }
