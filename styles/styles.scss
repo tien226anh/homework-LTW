@@ -13,18 +13,18 @@ body{
                 background-color: aqua;
             }
         }
-        // .numContainer{
-        //     margin: 10px 0;
-        //     padding: 10px;
-        //     background: cyan;
-        //     border-radius: 10px;
-        //     .boxNum{
-        //         display: flex;
-        //         flex-direction: column;
-        //     }
-        // }
-        // .sumButton{
-        //     margin-bottom: 10px;
-        // }
+    }
+    .github{
+        position: fixed;
+        bottom: 10px;
+        right: 10px;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        img{
+            width: 50%;
+            background-color: skyblue;
+            border-radius: 50px;
+        }
     }
 }
